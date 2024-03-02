@@ -14,6 +14,7 @@ const PlayerGroup = (props) => {
                     <div className="col-lg-3">
                         <PlayerCard
                             key={i}
+                            id={card.id}
                             name={card.name}
                             exp={card.base_experience}
                             type={card.type}
